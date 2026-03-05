@@ -1,0 +1,19 @@
+require("core.options")
+require("lazy").setup({
+	require("plugins.neo-tree"),
+	require("plugins.tokyonight"),
+	require("plugins.telescope"),
+	require("plugins.bufferline"),
+	require("plugins.lualine"),
+	require("plugins.treesiter"),
+	require("plugins.lspconfig"),
+	require("plugins.none-ls"),
+	require("plugins.autocompletion"),
+	require("plugins.gitsigns"),
+	require("plugins.alpha"),
+	require("plugins.indent-line"),
+	require("plugins.misc"),
+	require("plugins.harpoon"),
+	require("plugins.tmux-navigator"),
+})
+require("core.keymaps")
