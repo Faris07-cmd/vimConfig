@@ -15,5 +15,6 @@ require("lazy").setup({
 	require("plugins.misc"),
 	require("plugins.harpoon"),
 	require("plugins.tmux-navigator"),
+	require("plugins.toggleterm"),
 })
 require("core.keymaps")
