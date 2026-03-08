@@ -1,7 +1,7 @@
 require("core.options")
 require("lazy").setup({
 	require("plugins.neo-tree"),
-	require("plugins.tokyonight"),
+	require("plugins.nord"),
 	require("plugins.telescope"),
 	require("plugins.bufferline"),
 	require("plugins.lualine"),
